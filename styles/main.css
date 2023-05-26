@@ -1,0 +1,18 @@
+.pageHeader {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap; 
+    /* 自动换行 */
+    justify-content: space-evenly;
+    /* 自动给margin */
+}
+
+.shop{
+    border: 1px dotted gray;
+    padding: 2px 4px;
+    flex-basis: 30% ;
+}
